@@ -16,7 +16,7 @@ import org.junit.runner.RunWith;
         },
         features = "src/test/resources/features",
         glue = "techproed/stepDefinitions",
-        tags = "@US004PR",
+        tags = "@US3",
         dryRun = false,  //==> eger true secilirse scanariolari calistirmadan feature file daki
         // eksik step defeinitonlarin olup olmadigini kontrol eder, ve browser'i calistirmaz
         monochrome = false

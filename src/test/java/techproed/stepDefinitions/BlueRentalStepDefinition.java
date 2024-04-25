@@ -16,6 +16,7 @@ public class BlueRentalStepDefinition {
 
     @Given("kullanici blueRentalCar sayfasina gider")
     public void kullaniciBlueRentalCarSayfasinaGider() {
+
         Driver.getDriver().get(ConfigReader.getProperty("blueRentalUrl"));
     }
 
