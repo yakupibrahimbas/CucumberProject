@@ -1,20 +1,18 @@
 package techproed.pages;
 
-import io.cucumber.java.en.Given;
-import io.cucumber.java.en.Then;
-import io.cucumber.java.en.When;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import techproed.utilities.Driver;
 
-public class GetLandEstatePage {
-    public void getLandEstate() {
+public class GetLandeLoginPage {
+
+    public GetLandeLoginPage() {
         PageFactory.initElements(Driver.getDriver(),this);
     }
 
 
-    @FindBy(xpath = "//a[text()='Login']")
+    @FindBy(xpath = "//div/a[@data-rr-ui-event-key='5'")
     public WebElement loginButton;
     @FindBy(xpath = "//*[@placeholder='Email']")
     public WebElement emailGiris;

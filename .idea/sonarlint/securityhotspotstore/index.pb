@@ -21,8 +21,6 @@ a
 -src/test/java/techproed/pages/GooglePage.java,3\6\3637a843423aba343456d8408dfb56cf667fe920
 q
 Asrc/test/java/techproed/stepDefinitions/GoogleStepDefinition.java,5\4\543962855c5f1b8cf7eb2d7f6158abde116a2cab
-d
-4src/test/java/techproed/pages/GetLandEstatePage.java,8\d\8dd14c6d31c4d2f22184487e57af7e4ee1efaeb9
 `
 0src/test/java/techproed/pages/DataTablePage.java,c\2\c273ad597fb20a5ee58acb630e49b6704d2d59b4
 W
@@ -30,3 +28,5 @@ W
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
+d
+4src/test/java/techproed/pages/GetLandeLoginPage.java,8\b\8b5f78b47fe4a499bb28a78a8045df74f01aa55c
