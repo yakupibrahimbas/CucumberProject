@@ -30,3 +30,5 @@ W
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
 d
 4src/test/java/techproed/pages/GetLandeLoginPage.java,8\b\8b5f78b47fe4a499bb28a78a8045df74f01aa55c
+t
+Dsrc/test/java/techproed/stepDefinitions/DataTableStepDefinition.java,0\0\007f3371a7a6a46285316ead891e572032fbe8ab
