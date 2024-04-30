@@ -32,3 +32,7 @@ d
 4src/test/java/techproed/pages/GetLandeLoginPage.java,8\b\8b5f78b47fe4a499bb28a78a8045df74f01aa55c
 t
 Dsrc/test/java/techproed/stepDefinitions/DataTableStepDefinition.java,0\0\007f3371a7a6a46285316ead891e572032fbe8ab
+a
+1src/test/java/techproed/runners/FailedRunner.java,0\f\0fb6d644fa56af67d2f4513c935ade666463dde2
+N
+TestOutput/failed_scenario.txt,b\a\ba6404628a74955f013de12fc6c32eaa368baa19

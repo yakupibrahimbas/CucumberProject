@@ -12,11 +12,12 @@ import org.junit.runner.RunWith;
                 "pretty",//Console da scenariolar ile ilgili ayrintili bilgi almamizi saglar
                 "html:target/default-cucumber-reports.html",
                 "json:target/json-reports/cucumber.json",
-                "junit:target/xml-report/cucumber.xml"
+                "junit:target/xml-report/cucumber.xml",
+                "rerun:TestOutput/failed_scenario.txt"
         },
-        features = "src/test/resources/features",
+        features = "@TestOutput/failed_scenario.txt",
         glue = "techproed/stepDefinitions",
-        tags = "@US3",
+        tags = "@US013",
         dryRun = false,  //==> eger true secilirse scanariolari calistirmadan feature file daki
         // eksik step defeinitonlarin olup olmadigini kontrol eder, ve browser'i calistirmaz
         monochrome = false
